@@ -1,0 +1,53 @@
+body {
+  font-family: "Arial, sans-serif";
+  font-size: 50px;
+  color: #b4b4b4;
+  padding: 0;
+  margin: 0;
+}
+body .main {
+  background-color: yellow;
+  height: 100vh;
+}
+body .main .lista {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+body .main .lista .i {
+  margin: 10px;
+  min-width: 200px;
+  background: pink;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .main .lista .i:hover {
+  transition: 0.5s;
+  background: black;
+  height: 200px;
+}
+body .main .lista .item1 {
+  background: pink;
+}
+body .main .lista .item2 {
+  background: purple;
+}
+body .main .lista .item3 {
+  background: red;
+}
+body .main .lista .item4 {
+  background: green;
+}
+body .main .lista .item5 {
+  background: lightblue;
+}
+
+/*# sourceMappingURL=estilo.css.map */

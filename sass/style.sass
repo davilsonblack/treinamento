@@ -1,0 +1,46 @@
+@use "mixins"
+@use "variables"
+
+    
+body
+    font-family: 'Arial, sans-serif'
+    font-size: 50px
+    color: variables.$secondary-color
+    padding: 0
+    margin: 0
+
+    .main
+        background-color: yellow
+        height: 100vh
+        .lista
+            margin: 0
+            list-style: none
+            padding: 0
+            width: 100%
+            height: 100%
+            @include mixins.display
+            flex-wrap: wrap
+            
+            .i
+                margin: 10px
+                min-width: 200px
+                background: pink
+                border-radius: 10px
+                @include mixins.display
+
+                &:hover
+                    transition: .5s
+                    background: black
+                    height: 200px
+            .item1
+                background: pink
+            .item2
+                background: purple
+            .item3
+                background: red
+            .item4
+                background: green
+            .item5
+                background: lightblue
+
+
